@@ -100,7 +100,7 @@ services:
     depends_on:
       - postgres-service
   angular-front-end:
-    build: ./customer-front-angular-app
+    build: ./front-angular-app
     container_name: angular-front
     ports:
       - '80:80'
