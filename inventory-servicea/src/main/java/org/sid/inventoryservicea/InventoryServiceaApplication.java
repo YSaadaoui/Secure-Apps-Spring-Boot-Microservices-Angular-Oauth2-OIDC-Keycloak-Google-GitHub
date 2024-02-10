@@ -26,14 +26,14 @@ public class InventoryServiceaApplication {
                     .price(4300).build());
             productRepository.save(Product.builder()
                     .id(UUID.randomUUID().toString())
-                    .name("Phone")
-                    .quantity(3)
-                    .price(1200).build());
+                    .name("smartphone")
+                    .quantity(11)
+                    .price(15000).build());
             productRepository.save(Product.builder()
                     .id(UUID.randomUUID().toString())
                     .name("Printer")
-                    .quantity(6)
-                    .price(54200).build());
+                    .quantity(3)
+                    .price(1200).build());
         };
     }
 }
